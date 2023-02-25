@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Tilt+Prism&display=swap");
+:root {
+  --primary-color: #1e293b;
+  --secondary-color: #64748b;
+  font-family: "Tilt Prism", cursive;
+}
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+div {
+  font-size: larger;
+  text-align: center;
+}
+label,
+input {
+  display: block;
+  margin: 0.3rem;
+  padding: 0.5rem;
+  font-weight: bolder;
+}
+input {
+  text-align: center;
+  display: inline;
+}
+button {
+  display: block;
+  margin: auto;
+  margin-top: 0.5rem;
+  padding: 0.4rem;
+  font-size: 16px;
+  font-family: "Tilt Prism", cursive;
+  font-weight: bolder;
+  background: transparent;
+  color: var(--secondary-color);
+  border-color: var(--primary-color);
+}
+#output {
+  font-size: 25px;
+  font-weight: bolder;
+}
